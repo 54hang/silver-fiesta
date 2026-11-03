@@ -14,10 +14,10 @@
     "dependency_check": "passed",
     "addon_startup_smoke": "passed",
     "synthetic_version_209_capture_to_verified_native_solution": "passed",
-    "live_version_209_seed_recovery": "verified_for_one_session",
+    "live_version_209_seed_recovery": "historical_local_observation_not_publicly_reproducible",
     "live_board_alignment_and_mouse_execution": "not_verified",
     "wechat_server_confirmed_world_win": "not_verified",
-    "live_228_step_independent_replay": "passed",
+    "live_228_step_independent_replay": "historical_local_observation_not_publicly_reproducible",
     "live_tutorial_screenshot_alignment": "passed"
   },
   "test_inputs_sent_to_game": false,
@@ -25,5 +25,21 @@
     "Synthetic data does not prove live version 209 compatibility.",
     "One level per invocation; completion does not prove server-confirmed victory.",
     "Unsupported rules, props and partial boards are rejected."
-  ]
+  ],
+  "documentation_audit": {
+    "date": "2026-11-03",
+    "fresh_tests": {
+      "total": 56,
+      "passed": 40,
+      "skipped": 16,
+      "failed": 0
+    },
+    "original_manifest": {
+      "entries": 107,
+      "mismatches": 0
+    },
+    "live_dataset_public": false,
+    "scope": "Downloaded public sources; existing Python environment; no live mouse inputs; no clean-machine or universal-compatibility claim",
+    "source_commit": "f174be564968e2de24fb527e3e492e659de9fb04"
+  }
 }
