@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/Lda2138/SheepSolver",
+  "revision": "3bc4f1db0e1dde92c95f77f3c92f9a12384f05d1",
+  "license": "AGPL-3.0",
+  "purpose": "Map, game-local crypto, bounded solvers and independent replay integrated into original SheepSolver."
+}

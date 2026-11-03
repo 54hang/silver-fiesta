@@ -1,0 +1,7 @@
+# Local Windows/Python 3.12 installation. Upstream requirements.txt is preserved.
+certifi>=2024.2.2
+urllib3>=2,<3
+mitmproxy>=11,<12
+pywin32>=311
+numpy>=2,<3
+Pillow>=10,<13

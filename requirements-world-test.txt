@@ -1,0 +1,2 @@
+-r requirements-local.txt
+lzstring==1.0.4

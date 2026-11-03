@@ -1,0 +1,17 @@
+# Local data and credentials: never publish
+.venv/
+runtime/
+online_data.json
+world_support/output/
+static/map/
+static/client/
+__pycache__/
+*.pyc
+*.log
+*.lnk
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*

@@ -1,0 +1,29 @@
+{
+  "edition": "world-v2.0.1",
+  "date": "2026-11-02",
+  "automated_tests": {
+    "total": 56,
+    "passed": 40,
+    "skipped": 16,
+    "failed": 0
+  },
+  "skipped_reason": "Upstream real-client JavaScript and live screenshot fixtures are not bundled.",
+  "checks": {
+    "native_build": "passed",
+    "python_compile": "passed",
+    "dependency_check": "passed",
+    "addon_startup_smoke": "passed",
+    "synthetic_version_209_capture_to_verified_native_solution": "passed",
+    "live_version_209_seed_recovery": "verified_for_one_session",
+    "live_board_alignment_and_mouse_execution": "not_verified",
+    "wechat_server_confirmed_world_win": "not_verified",
+    "live_228_step_independent_replay": "passed",
+    "live_tutorial_screenshot_alignment": "passed"
+  },
+  "test_inputs_sent_to_game": false,
+  "limitations": [
+    "Synthetic data does not prove live version 209 compatibility.",
+    "One level per invocation; completion does not prove server-confirmed victory.",
+    "Unsupported rules, props and partial boards are rejected."
+  ]
+}
